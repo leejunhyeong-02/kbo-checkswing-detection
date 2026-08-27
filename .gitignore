@@ -1,4 +1,4 @@
-# ===========================
+О╩©# ===========================
 # К▄─Л ╘К÷┴ К█╟Л²╢М└╟ / Й╡╟ЙЁ╪К╛╪
 # ===========================
 
@@ -56,7 +56,7 @@ debug_*.txt
 plots/
 runs/
 
-# ╧ла╓╦╝ юс╫ц фдюо
+# О©╫О©╫О©╫О©╫О©╫О©╫ О©╫с╫О©╫ О©╫О©╫О©╫О©╫
 Untitled*.ipynb
 debug_*.py
 debug_results.txt
@@ -77,8 +77,11 @@ keypoint_test.ipynb
 homeplate.ipynb
 checkswing_detection.ipynb
 FinalModel_20_3.ipynb
-*.png
 
-# ╥ндц юЭ©К ╣╔юлем ╪ЖаЩ ╫╨е╘╦Ёф╝ (╟Ф╥н го╣Едз╣Ы)
+# О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫ О©╫О©╫е╘О©╫О©╫ф╝ (О©╫О©╫О©╫ О©╫о╣О©╫О©╫з╣О©╫)
 kborc_crawler.ipynb
 video_downloader.ipynb
+
+# Л²╢К╞╦Л╖─ assets М≈┬Л ╘
+!assets/*.png
+
