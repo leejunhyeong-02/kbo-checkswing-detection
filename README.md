@@ -1,14 +1,11 @@
 # ⚾ KBO Check Swing Automated Adjudication System
 
-> **KBO 체크스윙 실시간 자동 판정 시스템: YOLO11 키포인트 탐지 및 임계선 보정 접근법**  
-> Real-Time KBO Check Swing Automated Adjudication System: YOLO11 Keypoint Detection and Threshold Calibration Approach
-
 <p align="center">
-  <img src="assets/demo.gif" alt="Real-time Check Swing Adjudication Demo" width="750"/>
+  <img src="assets/paper_header.png" alt="Paper Header" width="850"/>
 </p>
 
 <p align="center">
-  <img src="assets/pipeline.png" alt="System Pipeline" width="750"/>
+  <img src="assets/demo.gif" alt="Real-time Check Swing Adjudication Demo" width="800"/>
 </p>
 
 <p align="center">
@@ -70,38 +67,9 @@
 
 ## 🏗️ System Architecture
 
-```
-KBO Broadcast Video
-        │
-        ▼
-┌─────────────────────┐    ┌─────────────────────┐
-│  Home Plate Model   │    │     Bat Model        │
-│  (YOLO11n-pose)     │    │  (YOLO11n-pose)      │
-│  5 Keypoints        │    │  2 Keypoints         │
-│  (pentagon corners) │    │  (Knob, Tip)         │
-└──────────┬──────────┘    └──────────┬───────────┘
-           │  Dynamic Tracking              │
-           │  Camera Jitter 보정            │
-           ▼                               ▼
-┌──────────────────────────────────────────────────┐
-│         4-Step Check Swing Algorithm              │
-│                                                  │
-│  Step 1. 스윙 유효 상태 검증                      │
-│          (Tip.y > Knob.y → 준비 자세 제외)         │
-│  Step 2. 원근 왜곡 보정 임계선 설정                │
-│          (홈플레이트 기울기 S 기반 x_th 계산)       │
-│  Step 3. 좌/우타석별 임계선 교차 판정              │
-│          (Tip.x vs x_th, 마진 적용)               │
-│  Step 4. 프레임 연속성 검증                       │
-│          (최소 2프레임 연속 교차 → SWING 확정)      │
-└──────────────────────────┬───────────────────────┘
-                           ▼
-                ┌─────────────────────┐
-                │  SWING / NO SWING   │
-                │  + JUDGE POINT      │
-                │  + Visualization    │
-                └─────────────────────┘
-```
+<p align="center">
+  <img src="assets/pipeline.png" alt="System Pipeline" width="800"/>
+</p>
 
 ---
 
