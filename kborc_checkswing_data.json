@@ -1,0 +1,56 @@
+[
+  {
+    "index": 1,
+    "title": "10.30 (대전) 번복 KBO리그 LG : 한화 2회말 LG 요청 15",
+    "final_decision": "노스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/a1ecd9aa-3a25-4296-b52a-cea099583440/6s/master.m3u8?fastly_token=NjlhMmE2OGVfZDc2MTYwZDdhM2U0ZTc3MzBlMGNkOTIzZTI5NjQ4ZTg5MzNlOWU5ZGM5NDFjOWM0NGNmYTY2OWNjZTgwMzdhZA%3D%3D"
+  },
+  {
+    "index": 2,
+    "title": "10.29 (대전) 유지 KBO리그 LG : 한화 8회말 한화 요청 08",
+    "final_decision": "스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/51c8655d-a68b-40ec-8ba8-e6f6141a499d/6s/master.m3u8?fastly_token=NjlhMmE2OTVfMzVhODg0NGY4YjQyYzA2ODI1Y2QwODA0ZTNkNDE3NjgxOTQ4NmUyNDBlNzVjZWEwNTg2NmU1NjFjZjU4M2E4Zg%3D%3D"
+  },
+  {
+    "index": 3,
+    "title": "10.29 (대전) 유지 KBO리그 LG : 한화 2회초 한화 요청 11",
+    "final_decision": "노스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/03afb2d5-aa7b-49c2-8aea-ac2223c878e1/6s/master.m3u8?fastly_token=NjlhMmE2OWJfMGIxZDEzYTBkNGUzZWM1MDcwMWJhYThmNzU4NTFlYWE5YjgyYTFlNzA3ZGIxYzQ4NGU5MGJmNjk0ZjI1Zjc1NA%3D%3D"
+  },
+  {
+    "index": 4,
+    "title": "10.27 (잠실) 번복 KBO리그 한화 : LG 6회말 한화 요청 11",
+    "final_decision": "노스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/e4ac4d72-adf1-41c3-921a-c65d7a92494c/6s/master.m3u8?fastly_token=NjlhMmE2YTJfYjAyNjdkMjAyYmVlMWU1ZWJiNTYyYTFmZDEyZjZhMWQ1MTZiMzc2MDU5MzMwOWUxZGU5NmRiYjJkYzdjODI5Ng%3D%3D"
+  },
+  {
+    "index": 5,
+    "title": "10.26 (잠실) 유지 KBO리그 한화 : LG 8회초 LG 요청 10",
+    "final_decision": "노스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/3e1b2548-42bf-4970-987f-b11c1c014780/6s/master.m3u8?fastly_token=NjlhMmE2YThfYzQ3N2I4ZTVhNzlmYTcyMzBjMGFmYmQ1MjQ1YmFlNDYxYzAyNTRjZTM5ZTBjM2JkNTdjZjVjYzdmZjhkMzA5Yg%3D%3D"
+  },
+  {
+    "index": 6,
+    "title": "10.26 (잠실) 유지 KBO리그 한화 : LG 1회말 LG 요청 11",
+    "final_decision": "스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/aed546ae-4ec7-4810-92ac-b6881f00f118/6s/master.m3u8?fastly_token=NjlhMmE2YWZfNmFkYjg0MmQ0ZWY4OGEwOTZkMmZhMWE1N2VhZTk2YWUwYWQ4MDU0OTc5N2I5NjI0Mjg5MGFkOTM0MGM5ZWM4MQ%3D%3D"
+  },
+  {
+    "index": 7,
+    "title": "10.24 (대전) 유지 KBO리그 삼성 : 한화 6회초 삼성 요청 08",
+    "final_decision": "스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/537b3214-f211-4d63-8a6f-1842d5391341/6s/master.m3u8?fastly_token=NjlhMmE2YjVfYTFlNjQwNTYwMDdhZGU1ZTlhZjVhYTIwNmU2MTg0NzdkNWM2N2NiZGI0MDg1MTAyNDVkMDUyZDg1MGMwN2NjZQ%3D%3D"
+  },
+  {
+    "index": 8,
+    "title": "10.24 (대전) 유지 KBO리그 삼성 : 한화 3회초 한화 요청 10",
+    "final_decision": "노스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/aa74c6c6-87b0-405e-bf0c-994532a47d40/6s/master.m3u8?fastly_token=NjlhMmE2YmJfY2E1M2ZmZjRmZGYzMTY0M2YzODNjMDdjOTU2Nzg1NjM2YTAyZmUxMzA3YTVkNzBmNzc4ZTYxYmNiMjBiM2UzOA%3D%3D"
+  },
+  {
+    "index": 9,
+    "title": "10.21 (대구) 유지 KBO리그 한화 : 삼성 9회말 삼성 요청 08",
+    "final_decision": "스윙",
+    "video_url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6415825029001/d1ef7322-46d2-43cc-ac33-f81fb5bcc3ae/6s/master.m3u8?fastly_token=NjlhMmE2YzJfZjA5NmE0Yzk5NWFkNzAwYTcxMzIyMjEwYzhjZTFmYzQxOTQzZTBhZDM2ZWUzZGRkZGJlNDI1ZTRkMDA4M2JjYg%3D%3D"
+  }
+]

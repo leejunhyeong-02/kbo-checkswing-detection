@@ -1,0 +1,84 @@
+# ===========================
+# ëŒ€ìš©ëŸ‰ ë°ì´í„° / ê²°ê³¼ë¬¼
+# ===========================
+
+# ê²°ê³¼ ì˜ìƒ (ìš©ëŸ‰ í° mp4ë“¤)
+result_videos/
+*.mp4
+*.avi
+*.mov
+
+# ë°ì´í„°ì…‹ ì›ë³¸
+datasets/
+data/
+*.zip
+
+# ëª¨ë¸ ê°€ì¤‘ì¹˜ (ì €ì‘ê¶Œ / ìš©ëŸ‰)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# ===========================
+# Jupyter / Python
+# ===========================
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ===========================
+# í™˜ê²½ / ë¹Œë“œ
+# ===========================
+.venv/
+venv/
+env/
+.env
+
+# ===========================
+# IDE / OS
+# ===========================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# ì„ì‹œ / ë””ë²„ê·¸ íŒŒì¼
+# ===========================
+debug_*.mp4
+debug_*.txt
+*_result.mp4
+plots/
+runs/
+
+# ¹ÌÁ¤¸® ÀÓ½Ã ÆÄÀÏ
+Untitled*.ipynb
+debug_*.py
+debug_results.txt
+final_fix.py
+fix_metrics.py
+test_pie.py
+monitor_results.py
+generate_formulas*.py
+generate_table*_img.py
+generate_table_img.py
+generate_metrics.py
+generate_pipeline*.py
+save_charts.py
+hough.ipynb
+pose estimation.ipynb
+test_video.ipynb
+keypoint_test.ipynb
+homeplate.ipynb
+checkswing_detection.ipynb
+FinalModel_20_3.ipynb
+*.png
+
+# ·ÎÄÃ Àü¿ë µ¥ÀÌÅÍ ¼öÁı ½ºÅ©¸³Æ® (°æ·Î ÇÏµåÄÚµù)
+kborc_crawler.ipynb
+video_downloader.ipynb

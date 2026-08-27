@@ -1,0 +1,12 @@
+﻿filename,ground_truth,prediction,match,handedness,max_reach_frame,judge_frame,bat_top_x,bat_bottom_x,bat_frames,total_frames
+250819_SSGKT_8초_노스윙.mp4,NO SWING,NO SWING,True,우타자,83,83,1225.9,1040.9,77,97
+250820_SSGKT_8말_노스윙.mp4,NO SWING,NO SWING,True,좌타자,176,176,965.7,1256.0,186,186
+250820_롯데LG_9초_노스윙.mp4,NO SWING,NO SWING,True,우타자,57,57,950.1,808.8,60,60
+250820_삼성NC_9초_노스윙.mp4,NO SWING,SWING,False,좌타자,73,73,938.9,1161.4,108,167
+250820_키움KIA_7초_스윙.mp4,SWING,NO SWING,False,좌타자,125,125,771.2,972.6,144,144
+250821_SSGKT_5말_노스윙.mp4,NO SWING,NO SWING,True,좌타자,56,56,1019.9,1237.1,62,62
+250821_SSGKT_9말_스윙.mp4,SWING,NO SWING,False,우타자,103,103,1060.2,1020.8,121,132
+250821_롯데LG_7말_스윙.mp4,SWING,SWING,True,좌타자,37,37,771.5,893.0,73,74
+250821_삼성NC_8초_스윙.mp4,SWING,SWING,True,좌타자,127,127,823.5,931.5,186,186
+250821_키움KIA_4말_노스윙.mp4,NO SWING,NO SWING,True,우타자,34,34,944.8,857.9,61,61
+250822_KT두산_8초_스윙.mp4,SWING,NO SWING,False,우타자,66,66,925.2,786.6,96,96
