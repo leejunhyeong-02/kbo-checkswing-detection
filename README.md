@@ -4,7 +4,11 @@
 > Real-Time KBO Check Swing Automated Adjudication System: YOLO11 Keypoint Detection and Threshold Calibration Approach
 
 <p align="center">
-  <img src="assets/pipeline.png" alt="System Pipeline" width="800"/>
+  <img src="assets/demo.gif" alt="Real-time Check Swing Adjudication Demo" width="750"/>
+</p>
+
+<p align="center">
+  <img src="assets/pipeline.png" alt="System Pipeline" width="750"/>
 </p>
 
 <p align="center">
@@ -176,7 +180,7 @@ result = detector.run(video_path="your_video.mp4")
 ## 🏆 Related Achievements
 
 - 📄 **KCI 등재 논문 게재** — *Journal of Korea Multimedia Society*, Vol.29, No.7, 2026
-- 🥉 **캡스톤 디자인 경진대회 장려상** (AMI 팀, 상명대학교 소프트웨어학과, 2026-1)
+- 🥉 **상명대학교 캡스톤 디자인 경진대회 장려상** (AMI 팀, 소프트웨어학과, 2026-1)
 
 ---
 
