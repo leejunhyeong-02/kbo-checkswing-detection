@@ -103,16 +103,17 @@
 
 ```
 kbo-checkswing-detection/
-├── checkswing_detection.ipynb    # 메인 판정 파이프라인
-├── bat_model.ipynb               # 배트 감지 모델 학습
-├── homeplate_model.ipynb         # 홈플레이트 감지 모델 학습
-├── evaluate_kbo_dataset.py       # 전체 데이터셋 평가 (145건)
-├── model_evaluation.ipynb        # 성능 평가 및 시각화
-├── extract_frames.py             # 영상 프레임 추출
-├── generate_charts.py            # 성능 차트 생성
+├── inference.py                  # ⭐ 단일 영상 자동 판정 및 시각화 CLI 모듈
+├── checkswing_main_v30.ipynb     # 메인 판정 파이프라인 (Colab)
+├── bat_model_train.ipynb         # 배트 감지 모델 학습 (YOLO11n-pose)
+├── homeplate_model.ipynb         # 홈플레이트 감지 모델 학습 (YOLO11n-pose)
+├── evaluate_kbo_dataset.py       # KBORC 145건 전수 데이터셋 배치 평가
+├── model_evaluation.ipynb        # 모델 성능 지표 및 시각화
+├── generate_charts.py            # 논문 성능 차트 및 그래프 생성
 ├── assets/
-│   ├── pipeline.png              # 시스템 파이프라인 다이어그램
-│   └── results/                  # 판정 결과 예시 영상
+│   ├── paper_header.png          # 논문 헤더 이미지
+│   ├── demo.gif                  # 실시간 판정 데모 애니메이션
+│   └── pipeline.png              # 시스템 파이프라인 다이어그램
 └── README.md
 ```
 
@@ -120,27 +121,37 @@ kbo-checkswing-detection/
 
 ## 🚀 Quick Start
 
-### Requirements
+### 1. Requirements
 
 ```bash
 pip install ultralytics opencv-python numpy
 ```
 
-### Run Detection
+### 2. Run Inference (CLI)
+
+```bash
+# 단일 영상 판정 및 결과 영상 저장
+python inference.py --video data/videos/sample.mp4 --output output/result.mp4
+
+# 실시간 시각화 창 띄우기
+python inference.py --video data/videos/sample.mp4 --show
+```
+
+### 3. Python API
 
 ```python
-# 기본 사용 예시
-from checkswing_detection import CheckSwingDetector
+from inference import CheckSwingDetector
 
 detector = CheckSwingDetector(
-    bat_model_path="models/bat_best.pt",
     homeplate_model_path="models/homeplate.pt",
+    bat_model_path="models/best.pt",
     conf_threshold=0.3,
+    margin_px=20,
     min_consecutive_frames=2
 )
 
-result = detector.run(video_path="your_video.mp4")
-# Returns: "SWING" or "NO SWING"
+result = detector.run(video_path="sample.mp4", output_path="output/result.mp4")
+print(result["decision"])  # "SWING" or "NO SWING"
 ```
 
 ---
