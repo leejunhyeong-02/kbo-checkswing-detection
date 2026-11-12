@@ -113,7 +113,8 @@ kbo-checkswing-detection/
 ├── assets/
 │   ├── paper_header.png          # 논문 헤더 이미지
 │   ├── demo.gif                  # 실시간 판정 데모 애니메이션
-│   └── pipeline.png              # 시스템 파이프라인 다이어그램
+│   ├── pipeline.png              # 시스템 파이프라인 다이어그램
+│   └── KBO_체크스윙_졸업작품_포스터.pdf  # 2026-1 캡스톤 졸업작품 전시 포스터
 └── README.md
 ```
 
@@ -160,6 +161,7 @@ print(result["decision"])  # "SWING" or "NO SWING"
 
 - 📄 **KCI 등재 논문 게재** — *Journal of Korea Multimedia Society*, Vol.29, No.7, 2026
 - 🥉 **상명대학교 캡스톤 디자인 경진대회 장려상** (AMI 팀, 소프트웨어학과, 2026-1)
+- 🎨 **캡스톤 졸업작품 전시 포스터** — [PDF 보기](./assets/KBO_체크스윙_졸업작품_포스터.pdf)
 
 ---
 
